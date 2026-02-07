@@ -1,25 +1,25 @@
 # Superstore-Sales-Performance-Dashboard-power-BI-
 #powerbi-superstore-dashboard/README.md
 
-##Overview
+**Overview**
 
 This project is an end-to-end Business Intelligence solution built using Power BI to analyze and monitor Superstore sales performance.
 It covers the complete BI workflow — from *raw data cleaning* and *transformation* to *data modeling*, *DAX calculations*, and *interactive dashboard* development.
 
 The dashboard enables stakeholders to explore sales, profitability, customer behavior, and trends over time using dynamic visuals and filters.
 
-#Objective
+**Objective**
 
 To provide a centralized, interactive dashboard that supports **data-driven decision-making** by analyzing sales performance across products, locations, customers, and time.
 
-#Tools & Technologies
+**Tools & Technologies**
 
 Power BI
 Power Query (Data Cleaning & Transformation)
 DAX (Measures & Calculations)
 Data Modeling (Star Schema)
 
-##Data Preparation & Cleaning
+**Data Preparation & Cleaning**
 
 The raw dataset was cleaned and transformed using Power Query by:
 
@@ -33,7 +33,7 @@ Converting columns to appropriate data types
 
 Ensuring data quality for accurate analysis
 
-##Data Modeling
+**Data Modeling**
 
 A star schema data model was designed to improve performance and clarity:
 
@@ -47,7 +47,7 @@ Measures Table
 Primary keys were identified in each dimension table and used as foreign keys in the fact table.
 Relationships were established and validated to ensure accurate filtering and aggregation across visuals.
 
-##DAX Measures
+**DAX Measures**
 
 Custom DAX measures were created to calculate key metrics, including:
 
@@ -63,9 +63,9 @@ Total Customers
 
 These measures power the KPIs and analytical visuals across the dashboard
 
-#Dashboard Features & Visuals
+**Dashboard Features & Visuals**
 
-##KPI Cards displaying:
+***KPI Cards displaying***
 
 Total Sales
 
@@ -77,7 +77,7 @@ Total Orders
 
 Total Customers
 
-##Clustered Bar Charts showing:
+**Clustered Bar Charts showing:**
 
 Total Sales by Product Category
 
@@ -96,7 +96,7 @@ Month
 Shipping Mode
 These allow users to dynamically explore performance across different dimensions.
 
-#Key Insights
+**Key Insights**
 
 Sales performance varies significantly across product categories and cities
 
